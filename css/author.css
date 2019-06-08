@@ -1,0 +1,58 @@
+.author{
+margin-top: 7rem;
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+align-content: space-around;
+flex-wrap: wrap;
+background: #9776B3;
+}
+
+.author__header{
+    margin: 3rem;
+    width: 90%;
+    font-size: 25px;
+}
+
+.author__img{
+    border-radius: 7px;
+    margin: 5rem 3rem;
+    background: #477F5C;
+}
+
+.author__desc{
+    width: 90%;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 2rem 0;
+    transition: all 0.8s;
+}
+
+.credits{
+    background: honeydew;
+    display: inline-block;
+    padding: 2rem 0;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+
+@media only screen and (min-width: 768px) { 
+
+    .author__header{
+        font-size: 22px;
+    }
+
+    .author__desc{
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1024px) { 
+    .author__header{
+        font-size: 25px;
+    }
+}

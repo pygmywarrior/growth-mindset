@@ -1,0 +1,51 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+viewBox="510,510" width="505" height="505" preserveAspectRatio="xMinYMin meet" >
+
+
+
+<!--<rect width="500" height="500" x="3" y="0" stroke="darkorchid" stroke-width="6" fill="none" />-->
+
+<g id="super-arrow"  stroke="black" stroke-width="6" stroke-linejoin="round">
+<path fill="#e8544e"
+d="M250,4 
+L300,80
+280,80
+Q260,300 497,496
+L4,496
+Q240,300 220,80
+L200,80
+Z
+" 
+/> 
+</g>
+
+<g id="human" stroke-width="6" stroke-linejoin="round" stroke="#111111">
+<circle cx="250" cy="280" r="45" fill="#e3d5bbfd"/> 
+
+<path 
+d=" M250,496
+L320,496
+V386
+Q395,326 410,256
+A10,10 0 1,0 380,248
+Q360,326 310,350
+H190
+Q140,326 120,248
+A10,10 0 1,0 90,256
+Q105,326 180,386
+V496
+Z
+"
+fill="rgb(76, 152, 237)"
+/>
+
+<path stroke="#e8544e" 
+d="M250,380
+H290
+L250, 410
+210,380
+H250
+" fill="#f7f47b"
+/>
+</g>
+</svg>

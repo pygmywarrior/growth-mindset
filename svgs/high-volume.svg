@@ -1,0 +1,27 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+viewBox="102,102" width="101" height="101" preserveAspectRatio="xMinYMin meet">
+
+<g   stroke-linejoin="round" stroke="white" >
+<path id="speaker" fill="white" stroke-width="4"
+d="M10,35
+V65
+H25
+L40,80
+Q55,50 40,20
+L25,35
+H10
+z
+"
+/>
+
+<path stroke-width="5" stroke-linecap="round" fill="none"
+d="M55,40
+Q65,50  55,60
+M65,30
+Q80,50 65,70
+M75,20
+Q95,50 75,80
+"
+/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+viewBox="102,102" width="101" height="101" preserveAspectRatio="xMinYMin meet">
+
+<g   stroke-linejoin="round" stroke="white" stroke-width="12" stroke-linecap="round" fill="none">
+<polyline
+points="30,15
+7,15
+7,30
+"
+/>
+<polyline
+points="30,85
+7,85
+7,72
+"
+/>
+<polyline
+points="70,85
+93,85
+93,72
+"
+/>
+<polyline
+points="70,15
+93,15
+93,30
+"
+/>
+</g>
+</svg>

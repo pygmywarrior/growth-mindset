@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    font-size: 10px;
+    line-height: 1.4;
+    font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    background: rosybrown;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    color: rgb(29,29,29);
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    padding: 0;
+    border: 0;
+}
+
+button:hover,
+input[type=range]{
+    cursor: pointer;
+}
+
+
+
+.main-cont{
+    position: relative;
+    width: 100%;
+}
+.section{
+    width: 100%;
+    position: relative;
+    padding:2rem;
+}

@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+viewBox="502,502" width="501" height="501" preserveAspectRatio="xMinYMin meet">
+<rect x="0" y="0" width="600" height="600" fill="black"/>
+
+
+<path stroke-width="30" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"
+
+d="M250, 450
+L250,270
+q-40,-120 -200,-40
+q40,80 160,50
+M250,270
+L250,180
+q40,-120 200,-40
+q-40,80 -160,50
+
+"
+/>
+
+</svg>

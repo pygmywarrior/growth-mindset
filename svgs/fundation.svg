@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+viewBox="502,502" width="501" height="501" preserveAspectRatio="xMinYMin meet">
+<rect x="10" y="10" width="480" height="480" fill="black" rx="30" stroke="white" stroke-width="16"  stroke-linecap="round" stroke-dasharray="13,24,34,55 "/>
+
+
+<path stroke-width="30" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"
+
+d="M250, 430
+L250,250
+q-20,-120 -190,-60
+q20,70 140,60
+M250,250
+L250,160
+q20,-120 190,-60
+q-20,90 -140, 60
+"
+/>
+
+<text x="310" y="400" fill="white" font-size="89" font-family="Verdana">BG</text>
+
+
+</svg>

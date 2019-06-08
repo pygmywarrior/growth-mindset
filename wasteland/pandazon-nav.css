@@ -1,0 +1,169 @@
+
+body{
+    font-size: 2rem;
+}
+
+
+
+.navigation{
+    position: relative;
+    z-index: 98;
+    width: 100%;
+    height: 5rem;
+    background: darkkhaki;
+}
+
+.full-search-box{
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.search-big-input{
+    display: inline-block;
+    height: 2rem;
+    width: 30rem;
+    opacity: 0;
+    transform: translateY(-5rem);
+    transition: all 1s;
+}
+.big-search-btn{
+    display: inline-block;
+    height: 2rem;
+    opacity: 0;
+    transform: translateY(-5rem);
+    transition: all 1s;
+}
+
+.drop-search-btn{
+    opacity: 1;
+    transition: all 1s;
+}
+
+.search-icon{
+    display: inline-block;
+    width: 2rem;
+    height: 100%;
+}
+
+.cart-icon{
+    width: 30px;
+    height: 30px;
+    transition: all 1s;
+}
+
+.your-cart-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+
+}
+
+.drop-search-box{
+    box-sizing: content-box;
+    width: 2rem;
+    z-index: 30;
+    position: relative;
+    top:-5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 1s;
+    width: auto;
+    background: black;
+    padding: 1rem;
+}
+
+.search-small-input{
+    display: inline-block;
+    width: 50%;
+    height: 2rem;
+}
+
+.small-search-btn{
+    height: 2rem;
+}
+
+.your-cart{
+    display: inline-block;
+}
+
+.add-cart-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.main-cont{
+    background: lightgray;
+    width: 100%;
+}
+
+.sec-cont{
+    width: 90%;
+    background: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.offer-cont{
+    padding: 2rem;
+    position: relative;
+}
+
+[class*="gm-"]{
+    display: inline-block;
+}
+
+.desc-cont{ /* WHAT THE FUCK?!
+    co to za position? dlaczego w tym miejscu???*/
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
+    width: 400px;
+    height: 200px;
+    background: olivedrab;
+    display: inline-block;
+    position: relative;
+}
+.description{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+.price,
+.add-to-cart{
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 768px) { 
+    .search-big-input{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+    .big-search-btn{
+        opacity: 1;   
+        transform: translateY(0rem);
+    }
+
+    .drop-search-box{
+        top: 0;
+    }
+
+    .drop-search-btn{
+        opacity: 0;
+        transform: translateY(-5rem);
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+@media only screen and (min-width: 1440px) {
+
+}
